@@ -13,6 +13,7 @@ jobs:
       - name: Checkout test
         uses: actions/checkout@master
         with:
+          repository: 0xvishal/test  
           branches:
              dev1
           path: test
