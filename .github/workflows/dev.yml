@@ -16,3 +16,12 @@ jobs:
                 #branches:
                 #develop
           path: test
+          
+      - name: check dir 
+        env: 
+          MY_NAME: VISHAL  
+        run: |
+          echo $MY_NAME 
+          ls test
+          #ls -al          
+          
