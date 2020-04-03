@@ -13,8 +13,8 @@ jobs:
       - name: Checkout test
         uses: actions/checkout@master
         with:
-                #branches:
-                #develop
+          branches:
+             dev1
           path: test
           
       - name: check dir 
